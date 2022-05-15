@@ -4,10 +4,10 @@
 SRT Caption Distiller is a Python-based script that will quickly and effortlessly correct subtitle/caption formatting issues commonly found in auto-generated .srt (SubRip Subtitle) files.
 
 In short, SRT Caption Distiller helps your subtitles/captions go from sometimes looking like this:
-![Before SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/imgs/before_srtcd.png?raw=true)
+![Before SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/tree/main/imgs/before_srtcd.png?raw=true)
 
 to consistently looking like this:
-![After SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/imgs/after_srtcd.png?raw=true)
+![After SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/tree/main/imgs/after_srtcd.png?raw=true)
 
 ## What It Does Do
 SRT Caption Distiller adjusts the formatting (line and character count) of your subtitles/captions, to align with the official FCC Caption Quality Standards, while keeping the timing as close as possible to the original timing of the commentary in the video. SRT Caption Distiller does this incredibly fast, as well -- I have processed several 6-hour long recordings of Twitch streaming video (lots of speaking), and it takes only a fraction of a second to process the entire file.
