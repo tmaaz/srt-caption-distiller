@@ -4,10 +4,10 @@
 SRT Caption Distiller is a Python-based script that will quickly and effortlessly correct subtitle/caption formatting issues commonly found in auto-generated .srt (SubRip Subtitle) files.
 
 In short, SRT Caption Distiller helps your subtitles/captions go from sometimes looking like this:
-![Before SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/tree/main/imgs/before_srtcd.png?raw=true)
+![Before SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/blob/main/imgs/before_srtcd.png?raw=true)
 
 to consistently looking like this:
-![After SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/tree/main/imgs/after_srtcd.png?raw=true)
+![After SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/blob/main/imgs/after_srtcd.png?raw=true)
 
 ## What It Does Do
 SRT Caption Distiller adjusts the formatting (line and character count) of your subtitles/captions, to align with the official FCC Caption Quality Standards, while keeping the timing as close as possible to the original timing of the commentary in the video. SRT Caption Distiller does this incredibly fast, as well -- I have processed several 6-hour long recordings of Twitch streaming video (lots of speaking), and it takes only a fraction of a second to process the entire file.
@@ -33,7 +33,10 @@ To see if you have it:
   - On a Mac, go to Applications > Utilities > Terminal, and open the app.
 2. At the prompt, simply type the word "python", and Enter.
 
-If Python is already installed, you will see some text appear, followed by a ">>>" prompt. This means that Python is installed and now running. (If you do not have Python installed: [Download Python for Windows](https://www.python.org/downloads/windows/) | [Download Python for Mac](https://www.python.org/downloads/macos/) | [How to Install Python](https://wiki.python.org/moin/BeginnersGuide/Download) )
+If Python is already installed, you will see some text appear, followed by a ">>>" prompt. This means that Python is installed and now running.
+
+If you do not have Python installed:
+[Download Python for Windows](https://www.python.org/downloads/windows/) | [Download Python for Mac](https://www.python.org/downloads/macos/) | [How to Install Python](https://wiki.python.org/moin/BeginnersGuide/Download)
 
 ## How To Use
 With python running in the terminal, simply click and drag the "srt-caption-distiller.py" file into the terminal window, and Enter. SRT Caption Distiller will open, and ask you for the .srt file. Again, a simple click and drag of your .srt file into the terminal window, and then Enter.
@@ -41,7 +44,7 @@ With python running in the terminal, simply click and drag the "srt-caption-dist
 If you have provided a proper .srt file, SRT Cpation Distiller will instantly create a temporary copy (your original file is never altered), the working file is modified as necessary, and then it is saved as a separate final .srt file, with "_distilled" added to the name. (e.g., if your original file is on the Desktop and is named "transcript_22-01-26.srt", your new distilled file will be saved on the Desktop, named "transcript_22-01-26_distilled.srt")
 
 ## To Contribute
-Please see the ![Contributing](/CONTRIBUTING.md) and ![Code of Conduct](/COODE_OF_CONDUCT.md) documents included in this project. The code is currently almost line-by-line commented, for those learning Python or just wanting to understand how this works.
+Please see the [Contributing](/CONTRIBUTING.md) and [Code of Conduct](/CODE_OF_CONDUCT.md) documents included in this project. The code is currently almost line-by-line commented, for those learning Python or just wanting to understand how this works.
 
 ## Credits
 Created by Trevor Masinelli (aka tmaaz)
