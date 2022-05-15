@@ -31,8 +31,8 @@ As a simple Python script file, there is no real "installation" necessary -- you
 
 To see if you have it:
 1. Open a terminal window
-  - On Windows, click Search in the taskbar, and type "Command Prompt" and open the app.
-  - On a Mac, go to Applications > Utilities > Terminal, and open the app.
+   - On Windows, click Search in the taskbar, and type "Command Prompt" and open the app.
+   - On a Mac, go to Applications > Utilities > Terminal, and open the app.
 2. At the prompt, simply type the word "python", and Enter.
 
 If Python is already installed, you will see some text appear, followed by a ">>>" prompt. This means that Python is installed and now running.
@@ -41,7 +41,7 @@ If you do not have Python installed:
 [Download Python for Windows](https://www.python.org/downloads/windows/) | [Download Python for Mac](https://www.python.org/downloads/macos/) | [How to Install Python](https://wiki.python.org/moin/BeginnersGuide/Download)
 
 ## How To Use
-With python running in the terminal, simply click and drag the "srt-caption-distiller.py" file into the terminal window, and Enter. SRT Caption Distiller will open, and ask you for the .srt file. Again, a simple click and drag of your .srt file into the terminal window, and then Enter.
+With Python running in the terminal, simply click and drag the "srt-caption-distiller.py" file into the terminal window, and Enter. SRT Caption Distiller will open, and ask you for the .srt file. Again, a simple click and drag of your .srt file into the terminal window, and then Enter.
 
 If you have provided a proper .srt file, SRT Cpation Distiller will instantly create a temporary copy (your original file is never altered), the working file is modified as necessary, and then it is saved as a separate final .srt file, with "_distilled" added to the name. (e.g., if your original file is on the Desktop and is named "transcript_22-01-26.srt", your new distilled file will be saved on the Desktop, named "transcript_22-01-26_distilled.srt")
 
