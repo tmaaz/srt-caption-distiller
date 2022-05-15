@@ -4,9 +4,11 @@
 SRT Caption Distiller is a Python-based script that will quickly and effortlessly correct subtitle/caption formatting issues commonly found in auto-generated .srt (SubRip Subtitle) files.
 
 In short, SRT Caption Distiller helps your subtitles/captions go from sometimes looking like this:
+
 ![Before SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/blob/main/imgs/before_srtcd.png?raw=true)
 
 to consistently looking like this:
+
 ![After SRT Caption Distiller](https://github.com/tmaaz/srt-caption-distiller/blob/main/imgs/after_srtcd.png?raw=true)
 
 ## What It Does Do
@@ -57,4 +59,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Badges
-![GitHub](https://img.shields.io/github/license/tmaaz/srt-caption-distiller) | [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md) | ![GitHub all releases](https://img.shields.io/github/downloads/tmaaz/srt-caption-distiller/total) | ![GitHub release (latest by date)](https://img.shields.io/github/v/release/tmaaz/srt-caption-distiller)
+![GitHub](https://img.shields.io/github/license/tmaaz/srt-caption-distiller) | [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
