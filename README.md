@@ -22,9 +22,10 @@ SRT Caption Distiller was created using the latest version of Python (3.10.0), a
 
 ## Future Features
 - a simple drag-and-drop widget-like interface would be nice
-- expanding the code to distill additional file formats
-  - .sbv (YouTube Captions) files, if there is a call for it
-  - .sub (MicroDVD subtitle) files, if there is a call for it
+- expanding the code to distill additional file formats, if there is a call for it
+  - .sbv (YouTube Captions) files
+  - .sub (MicroDVD subtitle) files
+- there are edge cases where the raw .srt file will randomly have two successive captions with timestamps that slightly overlap each other. Adding the ability to check for this issue on every single caption (and correct for it) will make the overall processing time longer, yet result in a more accurate end product. I'd like to flesh out the process, and see what effect it has on processing time.
 
 ## How To Install
 As a simple Python script file, there is no real "installation" necessary -- you just copy the file onto your computer. However, running the script ***does*** require that you have Python installed on your computer.
