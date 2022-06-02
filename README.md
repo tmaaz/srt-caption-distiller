@@ -42,9 +42,9 @@ If you do not have Python installed:
 [Download Python for Windows](https://www.python.org/downloads/windows/) | [Download Python for Mac](https://www.python.org/downloads/macos/) | [How to Install Python](https://wiki.python.org/moin/BeginnersGuide/Download)
 
 ## How To Use
-With Python running in the terminal, simply click and drag the "srt-caption-distiller.py" file into the terminal window, and Enter. SRT Caption Distiller will open, and ask you for the .srt file. Again, a simple click and drag your .srt file into the terminal window, and then Enter.
+With Python running in the terminal, simply click and drag the "srt-caption-distiller.py" file into the terminal window, and Enter. SRT Caption Distiller will open, and ask you for the .srt file. Again, simply click and drag your .srt file into the terminal window, and then Enter.
 
-If you have provided a proper .srt file, SRT Cpation Distiller will instantly create a temporary copy (your original file is never altered), the working file is modified as necessary, and then it is saved as a separate final .srt file, with "_distilled" added to the name. (e.g., if your original file is on the Desktop and is named "transcript_22-01-26.srt", your new distilled file will be saved on the Desktop, named "transcript_22-01-26_distilled.srt")
+If you have provided a properly-formatted .srt file, SRT Cpation Distiller will instantly create a temporary copy (your original file is never altered), the working file is modified as necessary, and then it is saved as a separate final .srt file, with "_distilled" added to the name. (e.g., if your original file is on the Desktop and is named "transcript_22-01-26.srt", your new distilled file will be saved on the Desktop, named "transcript_22-01-26_distilled.srt")
 
 ## To Contribute
 Please see the [Contributing](/CONTRIBUTING.md) and [Code of Conduct](/CODE_OF_CONDUCT.md) documents included in this project. The code is currently almost line-by-line commented, for those learning Python or just wanting to understand how this works.
